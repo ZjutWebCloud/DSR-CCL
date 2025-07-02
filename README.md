@@ -27,3 +27,12 @@ We develop our codes in the following environment or install all dependencies li
 
 - torch==2.3.1
 
+- ## 🚀 How to run the codes
+
+The command lines to train BGCL-KDE on the three datasets are as below. The un-specified hyperparameters in the commands are set as default.
+
+##### Last.FM
+
+```python
+python dsr-ccl_train.py
+
