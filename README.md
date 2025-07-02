@@ -23,13 +23,13 @@ We develop our codes in the following environment or install all dependencies li
 
 - CUDA==12.1
 
-- python==3.9.21
+- python==3.7.216
 
-- torch==2.3.1
+- torch==1.7.1+cu110
 
 - ## 🚀 How to run the codes
 
-The command lines to train BGCL-KDE on the three datasets are as below. The un-specified hyperparameters in the commands are set as default.
+The command lines to train DSR-CCL on the three datasets are as below. The un-specified hyperparameters in the commands are set as default.
 
 ```python
 python dsr-ccl_train.py
